@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="style.css">
+  <title>DigitalOcean</title>
+</head>
+
+<body>
+  <header>
+    <section id="navbar">
+      <nav class="navbar">
+        <ul class="navbar__left">
+          <li><img src="img/logo.png" alt=""></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Solutions</a></li>
+          <li><a href="#">Marketplace</a></li>
+          <li><a href="#">Customers</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+        <ul class="navbar__right">
+          <li><button class="btn-inverted">Sign In</button></li>
+          <li><button class="btn">Sign Up</button></li>
+        </ul>
+      </nav>
+      <nav class="navbar__small-devices">
+        <ul class="navbar__left">
+          <li><img src="img/logo.png" alt=""></li>
+        </ul>
+        <ul class="navbar__right">
+          <li><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+      </nav>
+    </section>
+    <section id="jumbotron">
+      <div class="container">
+        <div class="hero">
+          <div class="hero__left">
+            <h1>Welcome to the developer cloud</h1>
+            <p>We make it simple to launch in the cloud and scale up as you grow - with an intuitive control panel,
+              predictable pricing, team accounts, and more.</p>
+          </div>
+          <div class="hero__right">
+            <form>
+              <h5 for="">Deploy in seconds</h5>
+              <div class="hero__right--form">
+                <input type="text" placeholder="First Name">
+                <input type="email" placeholder="Email Address">
+                <input type="password" placeholder="Password">
+                <button class="btn">Sign up with email</button>
+                <hr>
+                <div class="hero__right--form-buttons">
+                  <button class="btn-inverted"><i class="fab fa-google"></i> Sign up with Google</button>
+                  <button class="btn-inverted"><i class="fab fa-github"></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section id="first">
+      <div class="container">
+        <h6>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h6>
+        <ul>
+          <li><img src="img/docker.svg" alt=""></li>
+          <li><img src="img/gitlab.svg" alt=""></li>
+          <li><img src="img/slack.svg" alt=""></li>
+          <li><img src="img/hashicorp.svg" alt=""></li>
+          <li><img src="img/wework.svg" alt=""></li>
+          <li><img src="img/splunk.svg" alt=""></li>
+        </ul>
+        <a href="">See business solutions ></a>
+      </div>
+    </section>
+    <section id="second">
+      <div class="container">
+        <div class="second__banner">
+          <img src="img/sub.png" alt="">
+          <div class="second__banner--text">
+            <h3>Planning to create static sites?</h3>
+            <p>You can build and deploy 3 static sites for free.</p>
+          </div>
+          <button class="btn">Learn more</button>
+        </div>
+        <div class="second__head">
+          <h3>Deploy and scale seamlessly</h3>
+          <p>Our optimized configuration process saves your team time when running and scaling distributed applications,
+            AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+
+        </div>
+        <div class="second__grid">
+          <div class="second__grid--sidebar">
+            <ul>
+              <li>Deploy</li>
+              <li>Scale</li>
+              <li>Store</li>
+              <li>Secure</li>
+              <li>Monitor</li>
+            </ul>
+          </div>
+          <div class="second__grid--item1">
+            <img src="img/icon.svg" alt="">
+            <h5>Kubernetes in minutes</h5>
+            <p>Spin up a managed Kubernetes clustes in just a few clicks. Simply specify the size and location of your
+              worker nodes.</p>
+          </div>
+          <div class="second__grid--item2">
+            <img src="img/icon.svg" alt="">
+            <h5>Kubernetes in minutes</h5>
+            <p>Spin up a managed Kubernetes clustes in just a few clicks. Simply specify the size and location of your
+              worker nodes.</p>
+          </div>
+          <div class="second__grid--item3">
+            <img src="img/icon.svg" alt="">
+            <h5>Kubernetes in minutes</h5>
+            <p>Spin up a managed Kubernetes clustes in just a few clicks. Simply specify the size and location of your
+              worker nodes.</p>
+          </div>
+          <div class="second__grid--item4">
+            <img src="img/icon.svg" alt="">
+            <h5>Kubernetes in minutes</h5>
+            <p>Spin up a managed Kubernetes clustes in just a few clicks. Simply specify the size and location of your
+              worker nodes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="third">
+      <div class="container">
+        <h1>Designed for developers</h1>
+        <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API</p>
+        <div class="third__slideshow">
+          <img class="mySlides" src="img/slide-1.png">
+          <img class="mySlides" src="img/slide-2.jpg">
+          <img class="mySlides" src="img/slide-3.jpg">
+          <img class="mySlides" src="img/slide-4.png">
+          <img class="mySlides" src="img/slide-5.jpg">
+          <img class="mySlides" src="img/slide-6.jpg">
+        </div>
+        <div class="third__slideshow--buttons">
+          <div class="third__slideshow--buttons-arrows">
+            <button class="arrow" onclick="plusDivs(-1)">❮ Prev</button>
+            <button class="arrow" onclick="plusDivs(1)">Next ❯</button>
+          </div>
+          <button class="btn dot" onclick="currentDiv(1)"></button>
+          <button class="btn dot" onclick="currentDiv(2)"></button>
+          <button class="btn dot" onclick="currentDiv(3)"></button>
+          <button class="btn dot" onclick="currentDiv(4)"></button>
+          <button class="btn dot" onclick="currentDiv(5)"></button>
+          <button class="btn dot" onclick="currentDiv(6)"></button>
+        </div>
+
+        <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+
+          function currentDiv(n) {
+            showDivs(slideIndex = n);
+          }
+
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" btn-inverted", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " btn-inverted";
+          }
+        </script>
+      </div>
+    </section>
+    <section id="fourth">
+      <div class="container">
+        <h2>Service your customers around the world from 13 data centers</h2>
+        <p>Run your infrastructure near your customers. Industry-low <a href="">bandwidth pricing</a>, with generous
+          quotas and add-on transfer at just $.01/GiB, makes DigitalOcean perfect for network-heavy apps like VPN and
+          video.</p>
+        <div class="fourth__box">
+          <ul>
+            <li><strong>AMS2</strong></li>
+            <li>Amsterdam, Netherlands</li>
+            <li><a href="#">Test Speed ></a></li>
+          </ul>
+          <ul>
+            <li><strong>AMS2</strong></li>
+            <li>Amsterdam, Netherlands</li>
+            <li><a href="#">Test Speed ></a></li>
+          </ul>
+          <ul>
+            <li><strong>AMS2</strong></li>
+            <li>Amsterdam, Netherlands</li>
+            <li><a href="#">Test Speed ></a></li>
+          </ul>
+          <ul>
+            <li><strong>AMS2</strong></li>
+            <li>Amsterdam, Netherlands</li>
+            <li><a href="#">Test Speed ></a></li>
+          </ul>
+          <ul>
+            <li><strong>AMS2</strong></li>
+            <li>Amsterdam, Netherlands</li>
+            <li><a href="#">Test Speed ></a></li>
+          </ul>
+          <ul>
+            <li><strong>AMS2</strong></li>
+            <li>Amsterdam, Netherlands</li>
+            <li><a href="#">Test Speed ></a></li>
+          </ul>
+          <ul>
+            <li><strong>AMS2</strong></li>
+            <li>Amsterdam, Netherlands</li>
+            <li><a href="#">Test Speed ></a></li>
+          </ul>
+        </div>
+        <div class="fourth__box">
+          <ul>
+            <li><strong>AMS2</strong></li>
+            <li>Amsterdam, Netherlands</li>
+            <li><a href="#">Test Speed ></a></li>
+          </ul>
+          <ul>
+            <li><strong>AMS2</strong></li>
+            <li>Amsterdam, Netherlands</li>
+            <li><a href="#">Test Speed ></a></li>
+          </ul>
+          <ul>
+            <li><strong>AMS2</strong></li>
+            <li>Amsterdam, Netherlands</li>
+            <li><a href="#">Test Speed ></a></li>
+          </ul>
+          <ul>
+            <li><strong>AMS2</strong></li>
+            <li>Amsterdam, Netherlands</li>
+            <li><a href="#">Test Speed ></a></li>
+          </ul>
+          <ul>
+            <li><strong>AMS2</strong></li>
+            <li>Amsterdam, Netherlands</li>
+            <li><a href="#">Test Speed ></a></li>
+          </ul>
+          <ul>
+            <li><strong>AMS2</strong></li>
+            <li>Amsterdam, Netherlands</li>
+            <li><a href="#">Test Speed ></a></li>
+          </ul>
+          <ul>
+            <li><strong>AMS2</strong></li>
+            <li>Amsterdam, Netherlands</li>
+            <li><a href="#">Test Speed ></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="fifth">
+      <div class="container">
+        <h2>Built for business</h2>
+        <ul class="fifth__items">
+          <li class="fifth__item-1">
+            <img src="img/shield.svg" alt="">
+            <h5>Reliable platform</h5>
+            <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99%
+              uptime SLA for all services.</p>
+            <a href="#">Security ></a>
+          </li>
+          <li class="fifth__item-2">
+            <img src="img/shield.svg" alt="">
+            <h5>Reliable platform</h5>
+            <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99%
+              uptime SLA for all services.</p>
+            <a href="#">Security ></a>
+          </li>
+          <li class="fifth__item-3">
+            <img src="img/shield.svg" alt="">
+            <h5>Reliable platform</h5>
+            <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99%
+              uptime SLA for all services.</p>
+            <a href="#">Security ></a>
+          </li>
+          <li class="fifth__item-4">
+            <img src="img/shield.svg" alt="">
+            <h5>Reliable platform</h5>
+            <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99%
+              uptime SLA for all services.</p>
+            <a href="#">Security ></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="sixth">
+      <div class="container">
+        <h2>Development teams love DigitalOcean</h2>
+        <p class="sixth__p--lg">Easily organize your infrastructure with Projects. And with Teams, everyone can get
+          their own account, with
+          just the privileges they need to do their jobs.</p>
+        <div class="sixth__slideshow">
+          <div class="mySlidesSixth">
+            <img src="img/rockerbox.png">
+            <p class="sixth__p--lg"><i class="fas fa-quote-left"></i> We have been able to make scaling the technical
+              infrastructure of our
+              business cost effective and
+              efficient. <i class="fas fa-quote-right"></i></p>
+            <a href="#">Read story</a>
+            <p class="sixth__p--md">Rick O'Toole</p>
+            <p class="sixth__p--sm">Co-founder and CTO</p>
+          </div>
+          <div class="mySlidesSixth">
+            <img src="img/content.jpeg">
+            <p class="sixth__p--lg"><i class="fas fa-quote-left"></i> Our hosting costs have decreased by over 90% and
+              we're running at about 25% of our capacity allowing us to quickly scale. <i
+                class="fas fa-quote-right"></i></p>
+            <a href="#">Read story</a>
+            <p class="sixth__p--md">Jamie Druce</p>
+            <p class="sixth__p--sm">Senior Web Developer</p>
+          </div>
+          <div class="mySlidesSixth">
+            <img src="img/ghost.png">
+            <p class="sixth__p--lg"><i class="fas fa-quote-left"></i> Ghost(Pro) was migrated to DigitalOcean to enable
+              on-demand scaling. <i class="fas fa-quote-right"></i></p>
+            <a href="#">Read story</a>
+            <p class="sixth__p--md">Sebastian Gierlinger</p>
+            <p class="sixth__p--sm">Senior DevOps Engineer</p>
+          </div>
+        </div>
+        <div class="sixth__slideshow--buttons">
+          <div class="sixth__slideshow--buttons-arrows">
+            <button class="arrow" onclick="plusDivs(-1)">❮ Prev</button>
+            <button class="arrow" onclick="plusDivs(1)">Next ❯</button>
+          </div>
+          <button class="btn dotSixth" onclick="currentDiv(1)"></button>
+          <button class="btn dotSixth" onclick="currentDiv(2)"></button>
+          <button class="btn dotSixth" onclick="currentDiv(3)"></button>
+        </div>
+
+        <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+
+          function currentDiv(n) {
+            showDivs(slideIndex = n);
+          }
+
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlidesSixth");
+            var dots = document.getElementsByClassName("dotSixth");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" btn-inverted", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " btn-inverted";
+          }
+        </script>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section id="top-footer">
+      <div class="container">
+        <h1>Get started now</h1>
+        <button class="btn-inverted">Create your account</button>
+      </div>
+    </section>
+    <section id="middle-footer">
+      <div class="container">
+        <ul class="middle-footer__col-1">
+          <li class="middle-footer__item--title">Company</li>
+          <li class="middle-footer__item">About</li>
+          <li class="middle-footer__item">Leadership</li>
+          <li class="middle-footer__item">Blog</li>
+          <li class="middle-footer__item">Careers</li>
+          <li class="middle-footer__item">Partners</li>
+          <li class="middle-footer__item">Referral Program</li>
+          <li class="middle-footer__item">Press</li>
+          <li class="middle-footer__item">Legal</li>
+          <li class="middle-footer__item">Trust Platform</li>
+        </ul>
+        <ul class="middle-footer__col-2">
+          <li class="middle-footer__item--title">Products</li>
+          <li class="middle-footer__item">Products Overview</li>
+          <li class="middle-footer__item">Droplets</li>
+          <li class="middle-footer__item">Kubernetes</li>
+          <li class="middle-footer__item">Managed Databases</li>
+          <li class="middle-footer__item">Spaces</li>
+          <li class="middle-footer__item">Marketplace</li>
+          <li class="middle-footer__item">Load Balancers</li>
+          <li class="middle-footer__item">Block Storage</li>
+          <li class="middle-footer__item">Tools $ Integrations</li>
+          <li class="middle-footer__item">API</li>
+          <li class="middle-footer__item">Pricing</li>
+          <li class="middle-footer__item">Documentation</li>
+          <li class="middle-footer__item">Release Notes</li>
+        </ul>
+        <ul class="middle-footer__col-3">
+          <li class="middle-footer__item--title">Community</li>
+          <li class="middle-footer__item">Tutorials</li>
+          <li class="middle-footer__item">Meetups</li>
+          <li class="middle-footer__item">Q&A</li>
+          <li class="middle-footer__item">Write for DOnations</li>
+          <li class="middle-footer__item">Droplets for Demos</li>
+          <li class="middle-footer__item">Hatch Startup Program</li>
+          <li class="middle-footer__item">Shop Swag</li>
+          <li class="middle-footer__item">Research Program</li>
+          <li class="middle-footer__item">Currents Research</li>
+          <li class="middle-footer__item">Open Source</li>
+          <li class="middle-footer__item">Code of Conduct</li>
+        </ul>
+        <ul class="middle-footer__col-4">
+          <li class="middle-footer__item--title">Solutions</li>
+          <li class="middle-footer__item">Web & Mobile Apps</li>
+          <li class="middle-footer__item">Website Hosting</li>
+          <li class="middle-footer__item">Game Development</li>
+          <li class="middle-footer__item">Streaming</li>
+          <li class="middle-footer__item">VPN</li>
+          <li class="middle-footer__item">Startups</li>
+          <li class="middle-footer__item">SaaS Solutions</li>
+          <li class="middle-footer__item">Agency & Web Dev Shops</li>
+          <li class="middle-footer__item">Managed Cloud Hosting Providers</li>
+          <li class="middle-footer__item">Big Data</li>
+          <li class="middle-footer__item">Business Solutions</li>
+        </ul>
+        <ul class="middle-footer__col-5">
+          <li class="middle-footer__item--title">Contact</li>
+          <li class="middle-footer__item">Support</li>
+          <li class="middle-footer__item">Sales</li>
+          <li class="middle-footer__item">Report Abuse</li>
+          <li class="middle-footer__item">System Status</li>
+        </ul>
+      </div>
+    </section>
+    <section id="bottom-footer">
+      <div class="container">
+        <ul>
+          <li><img src="img/mark.svg" alt=""></li>
+          <li class="bottom-footer__copy">&copy;2020 DigitalOcean, LLC. All rights reserved.</li>
+        </ul>
+        <ul>
+          <li class="bottom-footer__item"><i class="fab fa-twitter"></i></li>
+          <li class="bottom-footer__item"><i class="fab fa-facebook-square"></i></li>
+          <li class="bottom-footer__item"><i class="fab fa-instagram"></i></li>
+          <li class="bottom-footer__item"><i class="fab fa-youtube"></i></li>
+          <li class="bottom-footer__item"><i class="fab fa-linkedin"></i></li>
+          <li class="bottom-footer__item"><i class="fab fa-dev"></i></li>
+        </ul>
+      </div>
+    </section>
+  </footer>
+</body>
+
+</html>
